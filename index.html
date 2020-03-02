@@ -34,13 +34,13 @@
                                     <a href="#" class="header__QRCode-link">
                                         <img src="assets/images/DownAppstore.png" alt="" class="header__QRCode-app--downimage">
                                     </a>
-
                                 </div>
                             </div>
                         </li>
                         <li class="header__nav-item">Kết Nối
-                            <i class="fab fa-facebook-square"></i>
-                            <i class="fab fa-instagram"></i>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+
                         </li>
                     </ul>
 
@@ -59,8 +59,8 @@
                                         <a href="#" class="header__notify-link">
                                             <img src="assets/images/DownAndroid.png" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm</span>
-                                                <span class="header__notify-description">Mô Tả Mỹ phẩm</span>
+                                                <span class="header__notify-name">Mỹ sadddddddddddddddd dddddddddddddd dddd asasd asd as das ddasd asd asd asdddddphẩm</span>
+                                                <span class="header__notify-description">Mô Tả asdasddddddddd ddddddddddddd asda dasd as ds ddddddddd dddddddasdasdasdasdMỹ phẩm</span>
                                             </div>
                                         </a>
                                     </li>
@@ -99,9 +99,10 @@
                         <li class="header__nav-item header__nav-item--bold">Đăng Nhập</li>
                     </ul>
                 </nav>
+            </div>
         </header>
 
-        </div>
+
         <!-- container -->
         <div class="container">
 
@@ -111,6 +112,61 @@
 
         </footer>
     </div>
+    <!--modal layout-->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <!-- Authen form -->
+            <div class="auth-form">
+                <div class="auth-form-container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Kí</h3>
+                        <span class="auth-form__switch-btn">Đăng Nhập</span>
+                    </div>
+
+
+                    <div class="auth-form__fomrs">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập passwork">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__asside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với HuynhNguyen-Shop về
+                            <a href="#" class="auth-form__text-link">điều khoản dịch vụ</a> &
+                            <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controll">
+                        <button class="btn btn--mormal auth-form__controll-back">TRỞ lẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÍ</button>
+                    </div>
+                </div>
+
+
+                <div class="auth-form__social">
+                    <a href="#" class="btn auth-form__social-facebook btn--size-s btn--witch-icon">
+                        <i class="auth-form__social-icon fab fa-facebook-square"> Kết nối với Facebook
+                        </i>
+                    </a>
+
+                    <a href="#" class="btn auth-form__social-google btn--size-s btn--witch-icon">
+                        <i class="auth-form__social-icon fab fa-google"> Kết nối với Google</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
