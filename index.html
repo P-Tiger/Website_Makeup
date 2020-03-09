@@ -38,8 +38,8 @@
                             </div>
                         </li>
                         <li class="header__nav-item">Kết Nối
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#" style="color: white;"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" style="color: white;"><i class="fab fa-instagram"></i></a>
 
                         </li>
                     </ul>
@@ -99,6 +99,57 @@
                         <li class="header__nav-item header__nav-item--bold">Đăng Nhập</li>
                     </ul>
                 </nav>
+
+                <div class="header-search">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link"><img src="assets/images/Logo.png" alt="Logo" class="header__logo-img"></a>
+
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="#">HiHI</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">HiHI</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">HiHI</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong Shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <div class="header__cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                    </div>
+
+                </div>
             </div>
         </header>
 
@@ -117,7 +168,7 @@
         <div class="modal__overlay"></div>
 
         <div class="modal__body">
-            <!-- Authen form -->
+            <!-- Register form -->
             <div class="auth-form">
                 <div class="auth-form-container">
                     <div class="auth-form__header">
@@ -161,6 +212,51 @@
 
                     <a href="#" class="btn auth-form__social-google btn--size-s btn--witch-icon">
                         <i class="auth-form__social-icon fab fa-google"> Kết nối với Google</i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Login Form -->
+            <div class="auth-form">
+                <div class="auth-form-container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng Kí</span>
+                    </div>
+
+
+                    <div class="auth-form__fomrs">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email/Số  điện thoại/Tên đăng nhập">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controll auth-form__controll--help ">
+                        <button class="btn auth-form__help-password">Quên Mật Khẩu</button>
+                        <a href="#" class="auth-form__help-link">Cần trợ giúp?</a>
+                    </div>
+
+                    <div class="auth-form__controll">
+                        <button class="btn btn--mormal auth-form__controll-back ">TRỞ lẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+
+                <div class="auth-form__social">
+                    <a href="#" class="btn auth-form__social-sms btn--size-s btn--witch-icon">
+                        <i class="auth-form__social-icon fas fa-comment-dots">SMS
+                        </i>
+                    </a>
+                    <a href="#" class="btn auth-form__social-facebook btn--size-s btn--witch-icon">
+                        <i class="auth-form__social-icon fab fa-facebook-square"> Facebook
+                        </i>
+                    </a>
+                    <a href="#" class="btn auth-form__social-google auth-form__social-margin btn--size-s btn--witch-icon">
+                        <i class="auth-form__social-icon fab fa-google"> Google</i>
                     </a>
                 </div>
             </div>

@@ -65,6 +65,8 @@ html {
     border: none;
     border-radius: 3px;
     font-size: 1.4rem;
+    padding-left: 0px;
+    padding-right: 0px;
     outline: none;
     background-color: var(--white-color);
     cursor: pointer;
