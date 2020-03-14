@@ -46,9 +46,8 @@
 
                     <ul class="header__nav-list">
                         <li class="header__nav-item header__nav-item--has-notify">
-                            <a href="#" class="header__nav-item-link">Thông Báo
-                                <i class="far fa-bell"></i>
-                            </a>
+                            <i class="far fa-bell"></i>
+                            <a href="#" class="header__nav-item-link">Thông Báo</a>
                             <div class="header__notify">
                                 <header class="header__notify-header">
                                     <h3>Thông Báo Mới Nhận</h3>
@@ -91,19 +90,36 @@
 
                         </li>
                         <li class="header__nav-item">
-                            <a href="#" class="header__nav-item-link">Trợ Giúp
-                                <i class="fas fa-question-circle"></i>
-                            </a>
+                            <i class="fas fa-question-circle"></i>
+                            <a href="#" class="header__nav-item-link">Trợ Giúp</a>
                         </li>
-                        <li class="header__nav-item header__nav-item--bold header__nav-item--sparate">Đăng Kí</li>
-                        <li class="header__nav-item header__nav-item--bold">Đăng Nhập</li>
+                        <!-- <li class="header__nav-item header__nav-item--bold header__nav-item--sparate">Đăng Kí</li>
+                        <li class="header__nav-item header__nav-item--bold">Đăng Nhập</li> -->
+
+                        <li class="header__nav-item header__nav-user">
+                            <img src="https://cf.shopee.vn/file/5d7db9d10e925f842bf135a8d1a065ff_tn" alt="avatar" class="header__nav-user-img">
+                            <span class="header__nav-user-name">Thì Thì</span>
+                            <ul class="header__nav-user-meunu">
+                                <li class="header__nav-user-item">
+                                    <a href="#">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__nav-user-item">
+                                    <a href="#">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__nav-user-item">
+                                    <a href="#">Đơn mua</a>
+                                </li>
+                                <li class="header__nav-user-item header__nav-user-item--separate">
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
 
                 <div class="header-search">
                     <div class="header__logo">
-                        <a href="#" class="header__logo-link"><img src="assets/images/Logo.png" alt="Logo" class="header__logo-img"></a>
-
+                        <a href="/" class="header__logo-link"><img src="assets/images/Logo.png" alt="Logo" class="header__logo-img"></a>
                     </div>
 
                     <div class="header__search">
@@ -144,9 +160,76 @@
                             <i class="header__search-icon fas fa-search"></i>
                         </button>
                     </div>
-
+                    <!-- cart layout -->
                     <div class="header__cart">
-                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="assets/images/QRcode.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://img.tickid.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="sp" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">bộ kem đặt trị vùng mắt</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân Loại: Bạc</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://img.tickid.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="sp" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">bộ kem đặt trị vùng mắt</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân Loại: Bạc</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://img.tickid.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="sp" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">bộ kem đặt trị vùng mắt</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Phân Loại: Bạc</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -163,6 +246,7 @@
 
         </footer>
     </div>
+
     <!--modal layout-->
     <div class="modal">
         <div class="modal__overlay"></div>
