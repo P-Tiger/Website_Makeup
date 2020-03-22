@@ -38,6 +38,7 @@
         --header-height: 68px;
         --navbar-height: 0px;
     }
+
     .hide-on-tablet {
         display: none;
     }
@@ -49,6 +50,7 @@
         --header-height: 54px;
         --navbar-height: 0px;
     }
+
     .hide-on-mobile {
         display: none;
     }
@@ -79,33 +81,37 @@
         display: none;
     }
 
-    .pagination-item{
+    .pagination-item {
         margin: 0;
     }
 
-    .pagination-item__link{
+    .pagination-item__link {
         font-size: 1.6rem;
         min-width: 36px;
     }
-    .app__content{
-        margin:0 4px;
+
+    .app__content {
+        margin: 0 4px;
     }
-    #mobile-search{
-        display: block;
-    }
-    .mobile-category{
+
+    #mobile-search {
         display: block;
     }
 
-    .footer__content{
+    .mobile-category {
+        display: block;
+    }
+
+    .footer__content {
         padding: 0 16px;
     }
 
-    .footer__heading{
+    .footer__heading {
         text-align: center;
     }
+
     .footer__download,
-    .footer-item__link{
+    .footer-item__link {
         justify-content: center;
     }
 
