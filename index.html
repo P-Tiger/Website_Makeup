@@ -22,6 +22,7 @@
     />
     <!-- icons -->
     <link href="assets/fonts/fontawesome/css/all.min.css" rel="stylesheet"/>
+    <script src="assets/js/index.js"></script>
     <title>Make up</title>
 </head>
 
@@ -174,7 +175,7 @@
             </nav>
 
             <div class="header-search">
-                <div id="mobile-search">
+                <div id="mobile-search" onclick="showSearch()">
                     <i class="fas fa-search"></i>
                 </div>
                 <div class="header__logo hide-on-tablet">
@@ -186,7 +187,7 @@
                     /></a>
                 </div>
 
-                <div class="header__search">
+                <div class="header__search" id="click_search">
                     <div class="header__search-input-wrap">
                         <input
                                 class="header__search-input"
