@@ -1,9 +1,10 @@
-var click = 0;
+let click = 0;
+
 function showSearch() {
     click++;
-    if(click%2 != 0){
+    if (click % 2 != 0) {
         document.getElementById("click_search").style.display = 'flex';
-    }else{
+    } else {
         document.getElementById("click_search").style.display = 'none';
     }
 }
